@@ -32,6 +32,15 @@ h1 {
 }
 
 .visually-hidden {
+  
+}
+
+.visually-hidden:focus {
+  
+}
+
+/*
+.visually-hidden {
   position: absolute !important;
   height: 1px;
   width: 1px;
@@ -43,3 +52,4 @@ h1 {
 .visually-hidden:focus {
   position: unset !important;
 }
+  */
