@@ -1,0 +1,45 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+html, body {
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 2rem;
+  background-color:white;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+li {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  clear: both;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip-path: rect(1px, 1px, 1px, 1px);
+  color: red;
+}
+
+.visually-hidden:focus {
+  position: unset !important;
+}
