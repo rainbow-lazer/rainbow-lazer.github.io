@@ -1,0 +1,86 @@
+@page {
+    size: A4 landscape;
+}
+
+.print-only {
+    display: block;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+   text-align: left;
+   
+}
+
+.navbar-toggler, .parallax-mirror, #searchbar, #paginator, #foot-paginator, footer, .d-flex.justify-content-between.tm-text-gray span:nth-child(2) {
+    display: none !important;
+}
+
+.container-fluid {
+    padding: 0;
+
+
+}
+
+.row{
+    display: block;
+   
+}
+
+.col-md-6, figure, img{
+    width: 100%
+}
+
+figure.effect-ming h2, .tm-video-item figcaption, .tm-text-gray-light, .tm-text-primary, .navbar-brand {
+    background-color: white;
+    color: black;
+    text-transform: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tm-text-primary {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+figure.effect-ming h2, .navbar-brand {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.tm-text-gray-light {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.tm-video-item figcaption {
+    position: static;
+    text-align: left;
+}
+
+figure.effect-ming {
+    margin: 0;
+    padding: 0;
+}
+
+figure.effect-ming h2 {
+    opacity: 100%;
+    display: block;
+}
+
+.d-flex.align-items-center.justify-content-center  {
+    justify-content: left !important;
+    align-items: left !important;
+    margin: 0;
+    padding: 12px 0;
+}
+
+.d-flex.align-items-center.justify-content-center  h2 {
+    transform: none;
+}
+
+.d-flex.justify-content-between.tm-text-gray span:nth-child(2) {
+    display: none;
+}

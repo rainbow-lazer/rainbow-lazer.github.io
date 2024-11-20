@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" media="print" href="css/print.css">
 <!--
     
 TemplateMo 556 Catalog-Z
@@ -52,7 +53,7 @@ https://templatemo.com/tm-556-catalog-z
         </div>
     </nav>
 
-    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg">
+    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg" id="searchbar">
         <form class="d-flex tm-search-form">
             <input class="form-control tm-search-input" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success tm-search-btn" type="submit">
@@ -66,7 +67,13 @@ https://templatemo.com/tm-556-catalog-z
             <h2 class="col-6 tm-text-primary">
                 Latest Photos
             </h2>
-            <div class="col-6 d-flex justify-content-end align-items-center">
+            <div class="print-only" id="license">
+                All images copyright of Artist Johnson 2024<br/>
+                Contact email@thing.com<br/>
+                (222) 222-2222<br/>
+
+            </div>
+            <div id="paginator" class="col-6 d-flex justify-content-end align-items-center">
                 <form action="" class="tm-text-primary">
                     Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> of 200
                 </form>
@@ -283,7 +290,7 @@ https://templatemo.com/tm-556-catalog-z
                 </div>
             </div>         
         </div> <!-- row -->
-        <div class="row tm-mb-90">
+        <div class="row tm-mb-90" id="foot-paginator">
             <div class="col-12 d-flex justify-content-between align-items-center tm-paging-col">
                 <a href="javascript:void(0);" class="btn btn-primary tm-btn-prev mb-2 disabled">Previous</a>
                 <div class="tm-paging d-flex">

@@ -6,6 +6,10 @@ https://templatemo.com/tm-556-catalog-z
 
 */
 
+.print-only {
+    display: hidden;
+}
+
 #loader-wrapper {
     position: fixed;
     top: 0;
