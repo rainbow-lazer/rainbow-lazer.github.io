@@ -37,7 +37,7 @@ body {
     width: 100%
 }
 
-figure.effect-ming h2, .tm-video-item figcaption, .tm-text-gray-light, .tm-text-primary, .navbar-brand {
+figure.effect-ming h2, .tm-video-item figcaption, .tm-text-gray-light, .tm-text-primary, .navbar-brand, .tm-video-item figcaption  {
     background-color: white;
     color: black;
     text-transform: none;
@@ -55,7 +55,7 @@ figure.effect-ming h2, .navbar-brand {
     line-height: 36px;
 }
 
-.tm-text-gray-light {
+.tm-text-gray-light, .tm-video-item figcaption  {
     font-size: 18px;
     line-height: 24px;
 }
