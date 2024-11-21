@@ -3,7 +3,7 @@
 }
 
 a::after {
- content: " (" attr(href) ")";
+    content: " (https://rainbow-lazer.github.io/css-print" attr(href) ") ";
 }
     
 
