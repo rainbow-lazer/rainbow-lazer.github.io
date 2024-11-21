@@ -84,3 +84,17 @@ figure.effect-ming h2 {
 .d-flex.justify-content-between.tm-text-gray span:nth-child(2) {
     display: none;
 }
+
+button {
+    border: none;
+}
+
+.container button {
+    
+
+}
+
+.noprint {
+    display: none;
+
+}
