@@ -18,7 +18,7 @@ body {
    
 }
 
-.navbar-toggler, .parallax-mirror, #searchbar, #paginator, #foot-paginator, footer, .d-flex.justify-content-between.tm-text-gray span:nth-child(2) {
+.navbar-toggler, .parallax-mirror, #searchbar, #paginator, #navbarSupportedContent, #foot-paginator, footer, .d-flex.justify-content-between.tm-text-gray span:nth-child(2) {
     display: none !important;
 }
 
