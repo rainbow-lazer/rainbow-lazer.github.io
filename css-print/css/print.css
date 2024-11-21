@@ -42,6 +42,7 @@ figure.effect-ming h2, .tm-video-item figcaption, .tm-text-gray-light, .tm-text-
     color: black;
     text-transform: none;
     font-family: 'Times New Roman', Times, serif;
+    position: static;
 }
 
 .tm-text-primary {
