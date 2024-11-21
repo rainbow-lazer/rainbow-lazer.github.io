@@ -2,6 +2,11 @@
     size: A4 landscape;
 }
 
+a::after {
+ content: " (" attr(href) ")";
+}
+    
+
 .print-only {
     display: block;
 }
@@ -98,3 +103,4 @@ button {
     display: none;
 
 }
+
